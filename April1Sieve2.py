@@ -126,3 +126,4 @@ if __name__ == "__main__":
     print(f"Raw composites (first 20): {raw_table[:20]}")
     holes_first_100 = [i for i in range(1, 101) if i not in raw_table]
     print(f"Holes in first 100 indices: {holes_first_100}")
+    print("Hole Class:", k)
