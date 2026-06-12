@@ -3,6 +3,9 @@ import cmath
 from math import gcd
 from functools import reduce
 
+# TP Proof 
+#Composite Class model for fusion set of amplitude features across several classes. Includes hole extinction at thresholds of multiclass marking.
+
 def lcm(a, b):
     return abs(a * b) // gcd(a, b) if a and b else 0
 
